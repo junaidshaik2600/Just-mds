@@ -40,3 +40,10 @@ freeCodeCamp.org
 Harvard CS50's Intro to Cybersecurity - Full University Course
 
 (A) freeCodeCamp.org ve CS50
+
+
+
+
+
+
+https://youtube.com/playlist?list=PLfbYeQ4gHYEM&si=Rmup8AteeTFct4y6
