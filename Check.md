@@ -47,3 +47,7 @@ Harvard CS50's Intro to Cybersecurity - Full University Course
 
 
 https://youtube.com/playlist?list=PLfbYeQ4gHYEM&si=Rmup8AteeTFct4y6
+
+
+
+https://youtube.com/playlist?list=PLTnqTPOAgfwwqNRsIbwXFiKPhBr7v-_vm&si=lfj8On-WZKuOexJD
