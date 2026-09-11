@@ -1,281 +1,1003 @@
-Yes — let's make this very simple. No random playlists, no course hunting.
+Worked for 8s
 
-Follow these in exactly this order. You don't need to buy anything initially.
+Yes — this image is a very useful reference, but it contains far more material than you need at the beginning. If we apply the Pareto principle (80/20) aggressively, I would not follow the entire roadmap.
 
-🛡️ YouTube Cybersecurity Roadmap
+Your goal is not to become someone who knows a little about 200 cybersecurity topics.
 
-PHASE 1 — Cybersecurity Fundamentals
+Your goal is to become someone who can say:
 
-1. 🎓 freeCodeCamp — Harvard CS50's Introduction to Cybersecurity
-Search YouTube: Harvard CS50's Intro to Cybersecurity Full University Course
-
-2. Professor Messer — CompTIA Security+ SY0-701
-Watch the playlist in order, from Domain 1 onward.
+> “I understand networks, operating systems, security fundamentals, and can investigate a security incident in a lab.”
 
 
----
 
-PHASE 2 — Networking
+Then get the certifications that prove the foundation.
 
-3. Professor Messer — CompTIA Network+ N10-009
-Watch the playlist in order.
+Cisco's current CCNA covers network fundamentals, network access, IP connectivity, IP services, security fundamentals, and automation/programmability. 
 
-4. David Bombal — Networking Fundamentals / CCNA
-Use only to reinforce concepts you don't understand from Professor Messer.
+And ISC2's current entry-level CC covers security principles, governance, IAM, network/cloud security, and security operations/incident response. 
 
+So here's the Pareto version I would build specifically for YOU.
 
----
+🛡️ Junaid's 80/20 Cybersecurity Roadmap
 
-PHASE 3 — Linux
+YOUR CURRENT POSITION
+                           │
+             BCA + Wipro Trust & Safety
+                           │
+                           ▼
+                 ┌─────────────────┐
+                 │ 1. NETWORKING   │
+                 └────────┬────────┘
+                          │
+                        CCNA 🏆
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ 2. LINUX       │
+                 └────────┬────────┘
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ 3. SECURITY     │
+                 │    FUNDAMENTALS │
+                 └────────┬────────┘
+                          │
+                       Security+
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ 4. WINDOWS +    │
+                 │    AD + LOGS    │
+                 └────────┬────────┘
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ 5. SOC / SIEM   │
+                 │    INVESTIGATION│
+                 └────────┬────────┘
+                          │
+                          ▼
+                 ┌─────────────────┐
+                 │ 6. PORTFOLIO    │
+                 │    + PROJECTS   │
+                 └────────┬────────┘
+                          │
+                          ▼
+                  🎯 SOC ANALYST L1
+                          │
+              ┌───────────┼───────────┐
+              ▼           ▼           ▼
+          Blue Team    Cloud       Pentest
 
-5. freeCodeCamp — Linux Course for Beginners
-Search: Linux Course for Beginners freeCodeCamp
-
-6. NetworkChuck — Linux for Beginners
-Use for practical Linux/terminal familiarity.
-
-
----
-
-PHASE 4 — Windows
-
-7. Professor Messer — Windows / Operating System Security
-
-8. John Hammond — Windows Internals / Windows Security videos
-
-
----
-
-PHASE 5 — Active Directory
-
-9. John Hammond — Active Directory / Windows Domain videos
-
-10. The Cyber Mentor — Active Directory / Windows security
-
-
----
-
-PHASE 6 — SOC Fundamentals
-
-11. Professor Messer — Security Operations / Incident Response sections
-
-12. John Hammond — SOC / Blue Team videos
-
-13. David Bombal — SOC Analyst / Cybersecurity Blue Team content
-
-
----
-
-PHASE 7 — SIEM
-
-14. Splunk — Splunk Fundamentals / Search tutorials
-
-15. John Hammond — Splunk videos
-
-16. Security Blue Team — SIEM / SOC Analyst videos
+That's the core.
 
 
 ---
 
-PHASE 8 — Logs & Detection
+🥇 TIER 1 — Networking
 
-17. John Hammond — Windows Event Logs
+Priority: 10/10
 
-18. John Hammond — Sysmon
+This is your first major objective.
 
-19. Security Blue Team — Log Analysis
+Don't try to learn everything in that image.
 
-20. 13Cubed — Windows Forensics / DFIR
+Focus on these:
 
+Networking 80/20
 
----
+Must know:
 
-PHASE 9 — Wireshark & Network Analysis
+OSI model
 
-21. David Bombal — Wireshark tutorials
+TCP/IP model
 
-22. Chris Greer — Wireshark / Network Analysis
+Ethernet
 
-23. Professor Messer — Network Security
+MAC addresses
 
+IP addresses
 
----
+IPv4
 
-PHASE 10 — Threat Intelligence
+Subnetting ⭐⭐⭐
 
-24. John Hammond — Threat Intelligence
+IPv6 basics
 
-25. Security Blue Team — Threat Intelligence
+ARP
 
-26. MITRE ATT&CK — Official introduction/tutorial content
+ICMP
 
+TCP vs UDP
 
----
+Ports
 
-PHASE 11 — Incident Response
+DNS
 
-27. 13Cubed — DFIR / Incident Response
+DHCP
 
-28. John Hammond — Incident Response
+NAT
 
-29. Security Blue Team — Incident Response
+Routing
 
+Switching
 
----
+VLANs
 
-PHASE 12 — MITRE ATT&CK
+Trunking
 
-30. MITRE ATT&CK — Official ATT&CK introduction
+STP
 
-31. John Hammond — MITRE ATT&CK
+ACLs
 
-32. Security Blue Team — MITRE ATT&CK
+OSPF
 
-
----
-
-PHASE 13 — Web Security
-
-33. PortSwigger Web Security Academy — Web Security tutorials
-
-Start:
-
-HTTP → Authentication → Access Control → SQL Injection → XSS → CSRF → SSRF → File Upload → Command Injection
-
-34. John Hammond — Web Security
-
-35. The Cyber Mentor — Web Application Security
+Basic network security
 
 
----
+Tools
 
-PHASE 14 — Python for Cybersecurity
+Cisco Packet Tracer
 
-36. freeCodeCamp — Python for Beginners
+and later:
 
-37. NetworkChuck — Python
+Wireshark
 
-38. John Hammond — Python for Cybersecurity
+Achievement
 
-Focus on:
+🏆 CCNA
 
-Python → files → regex → JSON → APIs → log parsing → automation.
+Cisco's current CCNA is the 200-301 exam, 120 minutes, with no prerequisite; Cisco currently lists network fundamentals, network access, IP connectivity, IP services, security fundamentals and automation/programmability as the exam areas. 
+
+Why CCNA is important for YOU
+
+Because cybersecurity without networking becomes:
+
+> “I know security terminology.”
 
 
----
 
-PHASE 15 — Cloud Security
+Networking gives you:
 
-39. AWS — AWS Cloud Practitioner / Security fundamentals
+> “I understand what is actually happening on the network.”
 
-40. Microsoft — Azure Security fundamentals
 
-41. John Hammond — Cloud Security
 
-Focus on:
-
-AWS IAM → EC2 → S3 → VPC → CloudTrail
-
-Then:
-
-Azure/Entra ID → NSG → Defender → Sentinel
+That's a huge difference.
 
 
 ---
 
-🧪 PARALLEL PRACTICE — VERY IMPORTANT
+🥈 TIER 2 — Linux
 
-Don't wait until the end.
+Priority: 9/10
 
-Alongside the videos:
+Your image contains an enormous Linux section.
 
-After Networking
+Ignore 80% of it initially.
 
-→ TryHackMe networking rooms
+Master:
 
-After Linux
+Filesystem
+Users
+Groups
+Permissions
+Processes
+Services
+SSH
+Networking
+Logs
+Bash
+Package management
 
-→ OverTheWire: Bandit
+Commands
 
-After Web Security
+You should become comfortable with:
 
-→ PortSwigger Web Security Academy
+ls
+cd
+pwd
+cat
+less
+grep
+find
+chmod
+chown
+ps
+top
+kill
+systemctl
+ip
+ss
+ping
+curl
+wget
+ssh
 
-During SOC phase
+Achievement
 
-→ TryHackMe SOC Level 1
+🏆 Linux Security Lab
 
-After SOC fundamentals
+Example:
 
-→ CyberDefenders
+> Ubuntu server → users → permissions → SSH → logs → failed login investigation.
 
-After Wireshark
 
-→ Practice analyzing PCAPs
+
+You don't need a Linux certification immediately.
+
+Skill > certificate here.
 
 
 ---
 
-🎯 Your exact order
+🥉 TIER 3 — Security Fundamentals
 
-If you want the shortest version, save this:
+Priority: 10/10
 
-01  CS50 Cybersecurity
-        ↓
-02  Security+ — Professor Messer
-        ↓
-03  Network+ — Professor Messer
-        ↓
-04  Networking — David Bombal
-        ↓
-05  Linux — freeCodeCamp
-        ↓
-06  Linux — NetworkChuck
-        ↓
-07  Windows — Professor Messer
-        ↓
-08  Windows Security — John Hammond
-        ↓
-09  Active Directory — John Hammond
-        ↓
-10  Active Directory — The Cyber Mentor
-        ↓
-11  SOC Fundamentals — Professor Messer
-        ↓
-12  SOC — John Hammond
-        ↓
-13  Splunk
-        ↓
-14  SIEM — Security Blue Team
-        ↓
-15  Windows Logs + Sysmon — John Hammond
-        ↓
-16  DFIR — 13Cubed
-        ↓
-17  Wireshark — David Bombal
-        ↓
-18  Wireshark — Chris Greer
-        ↓
-19  Threat Intelligence
-        ↓
-20  Incident Response
-        ↓
-21  MITRE ATT&CK
-        ↓
-22  Web Security — PortSwigger
-        ↓
-23  Python
-        ↓
-24  Cloud Security
-        ↓
-25  SOC/DFIR Labs
+This is where the image becomes enormous.
 
-⭐ One rule
+We reduce it to the concepts that actually matter.
 
-Do NOT watch every video from every creator.
+Learn these deeply
 
-The list above is a sequence of subjects, not 25 giant playlists you must finish completely.
+Security principles
 
-For each phase, I'll tell you exactly which videos to watch and where to stop.
+CIA Triad
 
-Since you've already started CS50 Cybersecurity today, don't jump ahead. Finish the assigned portion of CS50 first. Then we'll move to Networking.
+Authentication
+
+Authorization
+
+Accounting
+
+Least privilege
+
+Defense in depth
+
+Zero Trust
+
+
+Threats
+
+Malware
+
+Phishing
+
+Credential attacks
+
+Brute force
+
+MITM
+
+DoS/DDoS
+
+Social engineering
+
+Insider threats
+
+
+Network security
+
+Firewall
+
+IDS
+
+IPS
+
+VPN
+
+Proxy
+
+Segmentation
+
+NAC
+
+
+Cryptography
+
+Understand the difference between:
+
+Hashing
+Encryption
+Encoding
+Digital signatures
+Certificates
+PKI
+
+Identity
+
+IAM
+
+MFA
+
+RBAC
+
+Privileged accounts
+
+Access control
+
+
+Incident response
+
+Preparation
+↓
+Detection
+↓
+Analysis
+↓
+Containment
+↓
+Eradication
+↓
+Recovery
+↓
+Lessons learned
+
+
+---
+
+🏆 Achievement — Security+
+
+This becomes your second major certification.
+
+I'd prioritize:
+
+CCNA → Security+
+
+rather than collecting five beginner certifications.
+
+
+---
+
+What about ISC2 CC?
+
+The ISC2 Certified in Cybersecurity (CC) is legitimate and specifically designed for people entering cybersecurity; ISC2 says there is no work-experience requirement. 
+
+But here's my Pareto judgment:
+
+If money/time are limited:
+
+Skip CC and go toward Security+.
+
+If you want a quick entry-level cybersecurity credential:
+
+CC can be useful.
+
+It isn't a bad certification. It's just that CCNA + Security+ gives you a stronger overall foundation for your particular path.
+
+Also, ISC2 updated the CC exam outline effective September 1, 2026, so if you pursue it, use the current exam material rather than old courses. 
+
+
+---
+
+🟦 TIER 4 — Windows + Active Directory
+
+This is one area I'd add strongly to the image's roadmap for your SOC Analyst goal.
+
+Priority: 9/10
+
+Learn:
+
+Windows
+
+Users
+
+Groups
+
+Services
+
+Processes
+
+Event Viewer
+
+Windows Defender
+
+PowerShell basics
+
+Windows networking
+
+Security logs
+
+
+Active Directory
+
+Understand:
+
+Domain
+Domain Controller
+Users
+Groups
+Organizational Units
+Group Policy
+Kerberos
+LDAP
+NTLM
+DNS
+
+You don't need to become an AD administrator.
+
+You need to understand how attacks and investigations work in an enterprise Windows environment.
+
+
+---
+
+🟨 TIER 5 — SOC / SIEM
+
+Priority: 10/10
+
+This is where your existing professional background becomes particularly useful.
+
+Your resume already demonstrates investigation support, risk assessment, abuse detection, trend analysis, and high-volume analytical decision-making. 
+
+Now we add actual cybersecurity investigation skills.
+
+Learn:
+
+SOC
+
+Alert
+
+Event
+
+Incident
+
+IOC
+
+TTP
+
+False positive
+
+Escalation
+
+Severity
+
+Incident triage
+
+
+Logs
+
+Learn to investigate:
+
+Windows Event Logs
+Linux logs
+Authentication logs
+Firewall logs
+DNS logs
+Web logs
+
+SIEM
+
+Learn one properly.
+
+I'd start with:
+
+Microsoft Sentinel OR Splunk
+
+Don't learn five SIEMs simultaneously.
+
+
+---
+
+🔎 TIER 6 — Wireshark + Nmap
+
+Priority: 9/10
+
+These two tools give you enormous practical value.
+
+Wireshark
+
+Learn to answer:
+
+> "What actually happened on the network?"
+
+
+
+Understand:
+
+Source IP
+Destination IP
+Protocol
+Port
+DNS
+TCP handshake
+HTTP/HTTPS
+Packets
+Sessions
+
+Nmap
+
+Learn:
+
+Host discovery
+Port scanning
+Service detection
+Basic enumeration
+
+Only against systems you own or are explicitly authorized to test.
+
+
+---
+
+🧪 TIER 7 — Projects
+
+This is where I want you to beat the certificate-collector problem.
+
+You need perhaps 4 excellent projects, not 25 mediocre ones.
+
+Project 1 — Network Investigation
+
+Packet Tracer + Wireshark
+
+Build a network.
+
+Capture traffic.
+
+Analyze it.
+
+Produce:
+
+Network diagram
+Packet captures
+Observations
+Findings
+Troubleshooting report
+
+
+---
+
+Project 2 — Linux Security Investigation
+
+Create a Linux lab.
+
+Generate controlled failed SSH logins.
+
+Investigate:
+
+Source IP
+Username
+Timestamp
+Number of attempts
+Pattern
+
+Write an incident report.
+
+
+---
+
+Project 3 — SOC Investigation
+
+Build a small SIEM lab.
+
+Generate security events.
+
+Investigate:
+
+Alert
+↓
+Evidence
+↓
+Timeline
+↓
+IOC
+↓
+Analysis
+↓
+Severity
+↓
+Response recommendation
+
+This is extremely valuable for your target role.
+
+
+---
+
+Project 4 — Phishing Investigation
+
+Create a simulated phishing case.
+
+Analyze:
+
+Sender
+Domain
+URL
+Headers
+Attachments
+Indicators
+User impact
+Recommended response
+
+Again: controlled/educational environment only.
+
+
+---
+
+🐍 TIER 8 — Programming
+
+The image includes Python, Go, JavaScript, C++, Bash, PowerShell, etc.
+
+Don't do that.
+
+That's exactly where Pareto saves you.
+
+For cybersecurity:
+
+Learn:
+
+Python + Bash + PowerShell basics
+
+That's enough initially.
+
+You already have JavaScript experience, so you don't need to spend months relearning programming from scratch.
+
+Python focus
+
+files
+strings
+regex
+JSON
+HTTP requests
+APIs
+CSV
+log parsing
+automation
+
+Your goal isn't:
+
+> Become a software engineer.
+
+
+
+Your goal is:
+
+> Automate repetitive security work.
+
+
+
+
+---
+
+☁️ TIER 9 — Cloud
+
+Priority: 7/10 initially
+
+Don't start here.
+
+After your networking/security foundation, learn:
+
+Cloud fundamentals
+
+IAM
+
+VPC/VNet
+
+Security groups
+
+Network ACLs
+
+Encryption
+
+Logging
+
+Monitoring
+
+Storage security
+
+Secrets
+
+Identity
+
+
+Then choose:
+
+AWS OR Azure
+
+Not both initially.
+
+Certification
+
+Later, one cloud certification can be useful.
+
+But don't let cloud distract you from CCNA + Security+ + SOC skills.
+
+
+---
+
+🚫 What I would NOT prioritize initially
+
+This is where the Pareto principle becomes really powerful.
+
+The image contains:
+
+CEH
+
+CISSP
+
+CISM
+
+CRISC
+
+OSCP
+
+GPEN
+
+GWAPT
+
+GCIH
+
+CCSP
+
+CASP+
+
+CISA
+
+etc.
+
+
+You don't need these now.
+
+Especially don't chase CISSP yet.
+
+CISSP is a later-career certification, not your first cybersecurity milestone.
+
+Don't chase OSCP yet.
+
+OSCP becomes meaningful after you have strong fundamentals and you know you actually want offensive security.
+
+Don't chase CEH just because it says "ethical hacking."
+
+There are better uses of your early learning time.
+
+
+---
+
+🎯 Your REAL 20%
+
+If I had to cut everything in that huge image down to 10 things, I'd give you:
+
+Priority	Skill	Why
+
+🥇	Networking	Foundation of cybersecurity
+🥈	Linux	Core security environment
+🥉	Security fundamentals	Understand attacks/defenses
+4	Windows	Enterprise environment
+5	Active Directory	Critical enterprise knowledge
+6	Wireshark	Network investigation
+7	SIEM	SOC job skill
+8	Incident response	Core analyst capability
+9	Python/Bash/PowerShell	Automation
+10	Cloud/IAM	Modern enterprise security
+
+
+And the certification side:
+
+CERTIFICATIONS
+
+                       CCNA
+                        🏆
+                        │
+                        ▼
+                    Security+
+                        🏆
+                        │
+                        ▼
+              Choose specialization
+                        │
+              ┌─────────┼─────────┐
+              ▼         ▼         ▼
+           CySA+     Cloud      Pentest
+
+
+---
+
+🏆 Your "Best of the Best" Achievement Ladder
+
+I would make these your milestones:
+
+LEVEL 1 — Foundation
+
+☐ Networking fundamentals
+☐ Linux fundamentals
+☐ Windows fundamentals
+☐ Security fundamentals
+
+LEVEL 2 — International certifications
+
+🏆 CCNA
+
+🏆 CompTIA Security+
+
+LEVEL 3 — Practical capability
+
+🏆 Wireshark investigation project
+🏆 Linux security investigation
+🏆 Windows/AD investigation
+🏆 SIEM investigation
+
+LEVEL 4 — Portfolio
+
+🏆 GitHub cybersecurity portfolio
+🏆 4 polished security projects
+🏆 Incident reports
+🏆 Network diagrams
+🏆 Detection queries/rules
+
+LEVEL 5 — Job
+
+🎯 SOC Analyst L1
+🎯 Security Analyst
+🎯 Junior Cybersecurity Analyst
+
+LEVEL 6 — Specialization
+
+Then choose ONE:
+
+🛡️ Blue Team / SOC
+☁️ Cloud Security
+🔴 Pentesting
+🔍 DFIR
+🎯 Threat Hunting
+
+
+---
+
+📅 Your first 12 months — Pareto edition
+
+I'd structure your time approximately like this:
+
+Months 1–3
+
+NETWORKING
+
+TCP/IP
+OSI
+IPv4
+Subnetting
+Switching
+VLAN
+Routing
+OSPF
+ACL
+NAT
+DNS
+DHCP
+
+
+Packet Tracer labs
+
+↓
+
+🏆 CCNA
+
+
+---
+
+Months 4–5
+
+LINUX + WINDOWS
+
+Linux
+Bash
+Windows
+PowerShell
+Logs
+Processes
+Services
+Permissions
+SSH
+
+
+---
+
+Months 5–7
+
+SECURITY
+
+CIA
+IAM
+Cryptography
+Network Security
+Threats
+Vulnerabilities
+Risk
+Incident Response
+
+↓
+
+🏆 Security+
+
+
+---
+
+Months 7–9
+
+SOC
+
+Wireshark
+Nmap
+Windows logs
+Linux logs
+SIEM
+IOC
+MITRE ATT&CK
+Alert triage
+Incident investigation
+
+
+---
+
+Months 9–11
+
+PROJECTS
+
+Build the four projects.
+
+
+---
+
+Months 11–12
+
+CAREER
+
+Cybersecurity resume
+LinkedIn
+GitHub
+SOC interview preparation
+Networking
+Applications
+
+And start applying.
+
+Do not wait until you have 10 certifications before applying.
+
+
+---
+
+⭐ And there's one thing I'd specifically exploit from YOUR background
+
+Your existing Wipro experience is not something I want you to hide.
+
+You already work in a high-volume environment involving platform safety, policy enforcement, risk assessment, abuse detection, investigation support and trend analysis. 
+
+Your AI experience also includes dataset validation, model testing/evaluation and ethical AI evaluation. 
+
+Eventually, your career story could become:
+
+> BCA → Trust & Safety / AI platform operations → Networking + Security → SOC Analyst → Security Operations / AI Security
+
+
+
+That's much stronger than pretending you started your career as a cybersecurity professional.
+
+And because you already have experience around an AI platform, AI security / AI abuse / AI platform security could eventually become an interesting specialization for you.
+
+
+---
+
+🔥 Final Pareto rule for you
+
+Whenever you see another giant cybersecurity roadmap, ask:
+
+> "Will this skill help me understand networks, operating systems, security, detection, investigation, or automation?"
+
+
+
+If yes → prioritize it.
+
+If maybe → later.
+
+If no → ignore it for now.
+
+Your first major target is therefore crystal clear:
+
+🎯 CCNA → Linux → Security+ → Windows/AD → Wireshark/Nmap → SIEM → 4 Projects → SOC Analyst
+
+Not:
+
+> 50 courses → 20 certificates → still no practical experience.
+
+
+
+That's the difference between learning cybersecurity and building a cybersecurity career.
+
+Confidence: High. The roadmap is intentionally narrower than the image because your goal is maximum career return per hour and per rupee, not maximum topic coverage. Cisco confirms the current CCNA scope, while ISC2 confirms its CC is an entry-level credential; I would treat the latter as optional rather than adding it automatically. 
