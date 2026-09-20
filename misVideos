@@ -31,36 +31,198 @@
 **Total Watching Time:** ~4 Hours 30 Minutes  
 **Remaining Time:** Practical hands-on practice in Excel/Google Sheets.
 
+---
+
 ### Day 1: Advanced Excel & MIS Core
-* **Watch (1 hr 20 mins):**
-  * *Excel Formulas & Functions* (Kevin Stratvert) — **35 mins**
-  * *MIS Executive Course* (Skills Improvement) — **45 mins**
-* **Practice (2.5 hrs):**
-  * Open Excel and create sample datasets. Practice writing nested `IF`, `XLOOKUP`, `INDEX-MATCH`, `SUMIFS`, and `TEXTJOIN`.
-  * Practice creating Pivot Tables, calculated fields, and conditional formatting rules.
+
+#### Watch — 1 hr 20 mins
+
+- *Excel Formulas & Functions* (Kevin Stratvert) — **35 mins**
+- *MIS Executive Course* (Skills Improvement) — **45 mins**
+
+#### Practice — 2.5 hrs
+
+Open Excel and create sample datasets. Practice writing:
+
+- Nested `IF`
+- `XLOOKUP`
+- `INDEX-MATCH`
+- `SUMIFS`
+- `COUNTIFS`
+- `TEXTJOIN`
+
+Also practice:
+
+- Creating Pivot Tables
+- Creating calculated fields
+- Conditional formatting
+- Data cleaning
+- Sorting and filtering
+- Basic MIS report creation
 
 ---
 
 ### Day 2: WFM Concepts, Metrics & NICE IEX
-* **Watch (1 hr 10 mins):**
-  * *Basics on WFM* (Call Center WFM) — **18 mins**
-  * *Manage Shrinkage & SLA* (WFM Tipsy Thursdays) — **14 mins**
-  * *NICE WFM Simulation & Engagement* (NICE Official) — **6 mins**
-  * *MIS & WFM Interview Q&A* (Career with Omkar) — **22 mins**
-* **Practice (2.5 hrs):**
-  * Calculate key metrics manually in Excel using formulas:
-    $$\text{Shrinkage \%} = \frac{\text{Total Non-Productive Hours}}{\text{Total Paid Hours}} \times 100$$
-    $$\text{Occupancy \%} = \frac{\text{Total Handle Time}}{\text{Logged-in Time} - \text{Shrinkage}} \times 100$$
-  * Solve scenario questions (e.g., *How do you handle a sudden 20% spike in call volume during an intraday shift?*).
+
+#### Watch — 1 hr 10 mins
+
+- *Basics on WFM* (Call Center WFM) — **18 mins**
+- *Manage Shrinkage & SLA* (WFM Tipsy Thursdays) — **14 mins**
+- *NICE WFM Simulation & Engagement* (NICE Official) — **6 mins**
+- *MIS & WFM Interview Q&A* (Career with Omkar) — **22 mins**
+
+#### Practice — 2.5 hrs
+
+Calculate key WFM metrics manually in Excel using formulas.
+
+### Shrinkage
+
+$$
+\text{Shrinkage \%} =
+\frac{\text{Total Non-Productive Hours}}
+{\text{Total Paid Hours}}
+\times 100
+$$
+
+### Occupancy
+
+$$
+\text{Occupancy \%} =
+\frac{\text{Total Handle Time}}
+{\text{Logged-in Time} - \text{Shrinkage}}
+\times 100
+$$
+
+Practice explaining:
+
+- AHT
+- SLA
+- Occupancy
+- Shrinkage
+- Attrition
+- Forecasting
+- Staffing
+- Erlang C
+- Schedule adherence
+- Conformance
+- Intraday management
+- Roster management
+
+#### Scenario Practice
+
+Example:
+
+> **How do you handle a sudden 20% spike in call volume during an intraday shift?**
+
+Prepare a structured response covering:
+
+1. Identify the volume spike.
+2. Compare actual volume against forecast.
+3. Check staffing and availability.
+4. Review real-time adherence.
+5. Identify available/offline agents.
+6. Coordinate with Operations/WFM.
+7. Consider overtime, breaks, or shift adjustments where appropriate.
+8. Monitor SLA and queue performance.
+9. Document the variance and update the forecast if required.
 
 ---
 
-### Day 3: Dashboards (Looker Studio, Power BI, Tableau) & Final Review
-* **Watch (1 hr 00 min):**
-  * *Looker Studio Quick-Start* (Loves Data) — **10 mins**
-  * *Power BI Tutorial* (Kevin Stratvert) — **10 mins**
-  * *Tableau in 10 Mins* (Edureka) — **11 mins**
-  * Re-watch specific problem areas or backup videos as needed — **25 mins**
-* **Practice (2 hrs):**
-  * Connect a Google Sheet to Looker Studio and build a 1-page interactive dashboard (Scorecards, Bar Chart, Date Filter).
-  * Review all key formulas, WFM terms (Adherence vs Conformance), and mock interview responses.
+### Day 3: Dashboards & Final Review
+
+#### Watch — 1 hr
+
+- *Looker Studio Quick-Start* (Loves Data) — **10 mins**
+- *Power BI Tutorial* (Kevin Stratvert) — **10 mins**
+- *Tableau in 10 Mins* (Edureka) — **11 mins**
+- Re-watch specific problem areas or backup videos as needed — **25 mins**
+
+#### Practice — 2 hrs
+
+Connect a Google Sheet to Looker Studio and build a **1-page interactive dashboard** containing:
+
+- KPI Scorecards
+- Bar Chart
+- Trend Chart
+- Date Filter
+- Team/Process Filter
+- Basic performance metrics
+
+---
+
+## 3. Final Interview Revision Checklist
+
+### Excel / Google Sheets
+
+- [ ] `IF`
+- [ ] Nested `IF`
+- [ ] `SUMIF`
+- [ ] `SUMIFS`
+- [ ] `COUNTIF`
+- [ ] `COUNTIFS`
+- [ ] `VLOOKUP`
+- [ ] `XLOOKUP`
+- [ ] `INDEX-MATCH`
+- [ ] `TEXTJOIN`
+- [ ] `TRIM`
+- [ ] `DATEDIF`
+- [ ] `NETWORKDAYS`
+- [ ] Pivot Tables
+- [ ] Conditional Formatting
+- [ ] Data Cleaning
+
+### MIS
+
+- [ ] What is MIS?
+- [ ] Purpose of an MIS report
+- [ ] Daily/weekly/monthly reporting
+- [ ] Data validation
+- [ ] Data cleaning
+- [ ] Report automation
+- [ ] KPI tracking
+- [ ] Dashboard creation
+- [ ] Handling large datasets
+- [ ] Identifying data discrepancies
+
+### WFM
+
+- [ ] AHT
+- [ ] SLA
+- [ ] Occupancy
+- [ ] Shrinkage
+- [ ] Attrition
+- [ ] Forecasting
+- [ ] Staffing
+- [ ] Erlang C
+- [ ] Scheduling
+- [ ] Rostering
+- [ ] Adherence
+- [ ] Conformance
+- [ ] Intraday Management
+- [ ] Real-Time Management
+
+### Tools
+
+- [ ] Excel
+- [ ] Google Sheets
+- [ ] NICE IEX
+- [ ] Looker Studio
+- [ ] Power BI
+- [ ] Tableau
+
+---
+
+## 4. Priority Order for the 3-Day Preparation
+
+If time becomes limited, focus on the following order:
+
+1. **Advanced Excel / Google Sheets**
+2. **MIS reporting and dashboards**
+3. **WFM concepts and metrics**
+4. **Intraday management and scenario questions**
+5. **NICE IEX fundamentals**
+6. **Looker Studio**
+7. **Power BI**
+8. **Tableau**
+
+The goal is not just to watch the videos. Spend the majority of the available preparation time **building reports, solving Excel problems, calculating WFM metrics, and answering scenario-based interview questions aloud**.
